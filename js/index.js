@@ -34,8 +34,8 @@ box.ondragenter = (e) => {
 //拖拽结束
 box.ondragend = (e) => {
   e.target.classList.remove('move');
-  const obj = [...box.children].map(item => {
+  const arr = [...box.children].map(item => {
     return item.innerText
   })
-  console.log(obj)
+  console.log(arr)
 }
