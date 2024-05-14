@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items-list{
+  max-width: 800px;
+  width: 90%;
+}
+.item{
+  height: 80px;
+  background: blueviolet;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  box-sizing: border-box;
+  cursor: move;
+}
+
+.items-list div.move{
+  background: transparent;
+  border: 1px solid #ddd;
+}
