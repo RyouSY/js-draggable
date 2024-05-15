@@ -37,5 +37,6 @@ box.ondragend = (e) => {
   const arr = [...box.children].map(item => {
     return item.innerText
   })
+  //打印排序后的数组
   console.log(arr)
 }
