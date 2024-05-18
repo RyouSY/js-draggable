@@ -1,18 +1,21 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
-body{
+
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.items-list{
+
+.items-list {
   max-width: 800px;
   width: 90%;
 }
-.item{
+
+.item {
   height: 80px;
   background: blueviolet;
   width: 100%;
@@ -27,7 +30,7 @@ body{
   cursor: move;
 }
 
-.items-list div.move{
+.items-list div.move {
   background: transparent;
   border: 1px solid #ddd;
 }
